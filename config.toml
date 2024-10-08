@@ -26,6 +26,9 @@ theme="autumn_night"
 "C-f" = "search"
 "ret" = ["insert_mode", "open_below"]
 "A-S-q" = { a = "code_action", r = "rename_symbol" }
+"A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+"A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+"F12" = "goto_definition"
 
 [keys.insert]
 "C-s" = ":w"
@@ -49,6 +52,10 @@ theme="autumn_night"
 "C-z" = "undo"
 "C-y" = "redo"
 "A-S-q" = { a = "code_action", r = "rename_symbol" }
+"A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+"A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+
+
 
 [keys.select]
 "S-left" = "extend_char_left"
@@ -62,3 +69,4 @@ theme="autumn_night"
 "C-z" = "undo"
 "C-y" = "redo"
 "A-S-q" = { a = "code_action", r = "rename_symbol" }
+"F12" = "goto_definition"
