@@ -1,0 +1,63 @@
+theme="autumn_night"
+
+[keys.normal]
+"C-s" = ":w"
+"C-w" = ":buffer-close"
+"C-x" = ["yank_to_clipboard", "delete_selection"]
+"A-S-o" = "file_picker"
+"C-c" = "yank_to_clipboard"
+"C-v" = "paste_clipboard_before"
+"S-tab" = "unindent"
+"tab" = "indent"
+"C-left" = "move_prev_word_start"
+"C-right" = "move_next_word_end"
+"C-S-left" = ["extend_prev_word_start"]
+"C-S-right" = ["extend_next_word_end"]
+"A-S-up" = "extend_line_above"
+"A-S-down" = "extend_line_below"
+"d" = { "d" = "kill_to_line_end"}
+"S-left" = ["move_char_right", "select_mode", "move_char_left"]  
+"S-right" = ["move_char_left", "select_mode", "move_char_right"]
+"S-up" = ["move_line_down", "select_mode", "move_line_up"]
+"S-down" = ["move_line_up", "select_mode", "move_line_down"]
+"$" = "goto_line_end"
+"C-z" = "undo"
+"C-y" = "redo"
+"C-f" = "search"
+"ret" = ["insert_mode", "open_below"]
+
+
+[keys.insert]
+"C-s" = ":w"
+"C-w" = ":buffer-close"
+"C-x" = ["yank_to_clipboard", "delete_selection"]
+"A-S-o" = "file_picker"
+"C-c" = "yank_to_clipboard"
+"C-v" = "paste_clipboard_before"
+"S-tab" = "unindent"
+"C-left" = "move_prev_word_start"
+"C-right" = "move_next_word_end"
+"C-S-left" = ["extend_prev_word_start"]
+"C-S-right" = ["extend_next_word_end"]
+"A-S-up" = "extend_line_above"
+"A-S-down" = "extend_line_below"
+"C-f" = "search"
+"S-left" = ["move_char_right", "select_mode", "move_char_left"]  
+"S-right" = ["move_char_left", "select_mode", "move_char_right"]
+"S-up" = ["move_line_down", "select_mode", "move_line_up"]
+"S-down" = ["move_line_up", "select_mode", "move_line_down"]
+"C-z" = "undo"
+"C-y" = "redo"
+
+[keys.select]
+"S-left" = "extend_char_left"
+"S-right" = "extend_char_right"
+"S-up" = "extend_line_up"
+"S-down" = "extend_line_down"
+"C-c" = "yank_to_clipboard"
+"C-v" = ["insert_mode", "paste_clipboard_before"]
+"C-f" = "search"
+"C-x" = ["yank_to_clipboard", "delete_selection"]
+"C-z" = "undo"
+"C-y" = "redo"
+
