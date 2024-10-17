@@ -1,4 +1,4 @@
-theme="autumn_night"
+theme="everblush"
 
 [keys.normal]
 "C-s" = ":w"
@@ -10,7 +10,7 @@ theme="autumn_night"
 "S-tab" = "unindent"
 "tab" = "indent"
 "C-left" = "move_prev_word_start"
-"C-right" = "move_next_word_end"
+"C-right" = ["move_next_word_end", "move_char_right"]
 "C-S-left" = ["extend_prev_word_start"]
 "C-S-right" = ["extend_next_word_end"]
 "A-S-up" = "extend_line_above"
@@ -44,7 +44,7 @@ theme="autumn_night"
 "C-v" = "paste_clipboard_before"
 "S-tab" = "unindent"
 "C-left" = "move_prev_word_start"
-"C-right" = "move_next_word_end"
+"C-right" = ["move_next_word_end", "move_char_right"]
 "C-S-left" = ["extend_prev_word_start"]
 "C-S-right" = ["extend_next_word_end"]
 "A-S-up" = "extend_line_above"

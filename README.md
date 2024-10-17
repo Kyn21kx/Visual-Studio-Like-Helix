@@ -11,7 +11,9 @@ If you're coming from VS Code, this might still feel familiar, however, do keep 
 I use VA as my main development plugin when working in C++ and C# projects, so I wanted to extend the ease of use that it provides me and combined with the lighting-fast performance of Helix, it feels just like the real thing
 ### Supported bindings
 - Alt + Shift + O => Fuzzy search panel
-- Alt + Shift + Q => Code actions
+- Alt + Shift + Q => Code actions / Rename symbol
+- Alt + M => Open symbol picker
+- F12 => Go to definition
 
 ## Maintenance
 This repo is truly for personal purposes (AKA, I do not want to lose my config if my PC dies), but I thought it might be useful for someone else like me that likes a lighting fast editor, but doesn't have the time to learn all the complicated motions.
