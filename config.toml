@@ -13,8 +13,8 @@ theme="everblush"
 "C-right" = ["move_next_word_end", "move_char_right"]
 "C-S-left" = ["extend_prev_word_start"]
 "C-S-right" = ["extend_next_word_end"]
-"A-S-up" = "extend_line_above"
-"A-S-down" = "extend_line_below"
+"A-S-up" = "copy_selection_on_prev_line"
+"A-S-down" = "copy_selection_on_next_line"
 "d" = { "d" = "kill_to_line_end"}
 "S-left" = ["move_char_right", "select_mode", "move_char_left"]  
 "S-right" = ["move_char_left", "select_mode", "move_char_right"]
@@ -47,8 +47,6 @@ theme="everblush"
 "C-right" = ["move_next_word_end", "move_char_right"]
 "C-S-left" = ["extend_prev_word_start"]
 "C-S-right" = ["extend_next_word_end"]
-"A-S-up" = "extend_line_above"
-"A-S-down" = "extend_line_below"
 "C-f" = "search"
 "S-left" = ["move_char_right", "select_mode", "move_char_left"]  
 "S-right" = ["move_char_left", "select_mode", "move_char_right"]
@@ -57,12 +55,14 @@ theme="everblush"
 "C-z" = "undo"
 "C-y" = "redo"
 "A-S-q" = { a = "code_action", r = "rename_symbol" }
-"A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
-"A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+"A-down" = ["normal_mode", "extend_to_line_bounds", "delete_selection", "paste_after"]
+"A-up" = ["normal_mode", "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 "A-m" = "symbol_picker"
 "C-backspace" = "delete_word_backward"
 "C-del" = "delete_word_forward"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
+"F12" = "goto_definition"
+
 
 [keys.select]
 "S-left" = "extend_char_left"
