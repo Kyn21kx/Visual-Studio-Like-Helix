@@ -19,3 +19,6 @@ I use VA as my main development plugin when working in C++ and C# projects, so I
 This repo is truly for personal purposes (AKA, I do not want to lose my config if my PC dies), but I thought it might be useful for someone else like me that likes a lighting fast editor, but doesn't have the time to learn all the complicated motions.
 
 That being said, I don't know how much I'll be able to keep this config up to date, but as Helix becomes one of my main editing tools I might continue adding on features to mimic Visual Studio x VA.
+
+## Additional languages
+- GDScript (you must first download the [NCat / NMap](https://nmap.org/download#windows) command line utility if not on Linux)
