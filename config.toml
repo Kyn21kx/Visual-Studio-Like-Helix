@@ -25,7 +25,7 @@ theme="everblush"
 "C-y" = "redo"
 "C-f" = "search"
 "ret" = ["insert_mode", "open_below"]
-"A-S-q" = { a = "code_action", r = "rename_symbol" }
+"A-S-q" = { a = "code_action", r = "rename_symbol", e = "diagnostics_picker" }
 "A-down" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 "A-up" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 "F12" = "goto_definition"
@@ -54,7 +54,7 @@ theme="everblush"
 "S-down" = ["move_line_up", "select_mode", "move_line_down"]
 "C-z" = "undo"
 "C-y" = "redo"
-"A-S-q" = { a = "code_action", r = "rename_symbol" }
+"A-S-q" = { a = "code_action", r = "rename_symbol", e = "diagnostics_picker" }
 "A-down" = ["normal_mode", "extend_to_line_bounds", "delete_selection", "paste_after"]
 "A-up" = ["normal_mode", "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 "A-m" = "symbol_picker"
@@ -75,7 +75,7 @@ theme="everblush"
 "C-x" = ["yank_to_clipboard", "delete_selection"]
 "C-z" = "undo"
 "C-y" = "redo"
-"A-S-q" = { a = "code_action", r = "rename_symbol" }
+"A-S-q" = { a = "code_action", r = "rename_symbol", e = "diagnostics_picker" }
 "F12" = "goto_definition"
 "A-m" = "symbol_picker"
 "C-backspace" = "delete_word_backward"
