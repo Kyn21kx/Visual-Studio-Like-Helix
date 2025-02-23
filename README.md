@@ -22,3 +22,4 @@ That being said, I don't know how much I'll be able to keep this config up to da
 
 ## Additional languages
 - GDScript (you must first download the [NCat / NMap](https://nmap.org/download#windows) command line utility if not on Linux)
+- GLSL (requires [GLSL Analyzer](https://github.com/nolanderc/glsl_analyzer) to be installed)
