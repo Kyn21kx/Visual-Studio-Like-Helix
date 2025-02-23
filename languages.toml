@@ -1,3 +1,5 @@
+
+
 # Language support configuration.
 # See the languages documentation: https://docs.helix-editor.com/master/languages.html
 
@@ -39,6 +41,7 @@ forth-lsp = { command = "forth-lsp" }
 fortls = { command = "fortls", args = ["--lowercase_intrinsics"] }
 fsharp-ls = { command = "fsautocomplete", config = { AutomaticWorkspaceInit = true } }
 gleam = { command = "gleam", args = ["lsp"] }
+glsl = { command = "glsl_analyzer", language-id="glsl" }
 godot = { command = "ncat", args = ["127.0.0.1", "6005"], language-id="gdscript" }
 graphql-language-service = { command = "graphql-lsp", args = ["server", "-m", "stream"] }
 haskell-language-server = { command = "haskell-language-server-wrapper", args = ["--lsp"] }
@@ -518,7 +521,7 @@ file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", 
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "clangd" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "\t" }
 
 [language.debugger]
 name = "lldb-dap"
@@ -1400,6 +1403,7 @@ source = { git = "https://github.com/alemuller/tree-sitter-make", rev = "a4b9187
 [[language]]
 name = "glsl"
 scope = "source.glsl"
+language-servers = ["glsl"]
 file-types = ["glsl", "vert", "tesc", "tese", "geom", "frag", "comp" ]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
