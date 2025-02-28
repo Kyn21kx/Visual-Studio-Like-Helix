@@ -62,6 +62,7 @@ theme="github_dark_dimmed"
 "C-backspace" = "delete_word_backward"
 "C-del" = "delete_word_forward"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
+"C-d" = ["extend_to_line_bounds", "yank", "paste_after"]
 "F12" = "goto_definition"
 
 
@@ -82,3 +83,4 @@ theme="github_dark_dimmed"
 "C-backspace" = "delete_word_backward"
 "C-del" = "delete_word_forward"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
+"C-d" = ["yank", "paste_after"]
