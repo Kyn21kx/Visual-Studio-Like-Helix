@@ -9,11 +9,29 @@ If you're coming from VS Code, this might still feel familiar, however, do keep 
 
 ## About Visual Assist
 I use VA as my main development plugin when working in C++ and C# projects, so I wanted to extend the ease of use that it provides me and combined with the lighting-fast performance of Helix, it feels just like the real thing
-### Supported bindings
-- Alt + Shift + O => Fuzzy search panel
-- Alt + Shift + Q => Code actions / Rename symbol
-- Alt + M => Open symbol picker
-- F12 => Go to definition
+
+## Supported Bindings
+### General
+- Alt + Shift + O: Open the fuzzy search panel.
+- Alt + Shift + Q:
+  - A: Trigger code actions for quick fixes.
+  - R: Rename a symbol to improve readability or refactor code.
+  - E: Open the diagnostics picker for reviewing issues in the code.
+- Alt + M: Open the symbol picker.
+- F12: Go to the definition of a symbol.
+
+### Navigation and Selection
+- Ctrl + Left / Ctrl + Right: Move to the start/end of words.
+- Shift + Arrow Keys: Extend selections by characters or lines.
+- Ctrl + Shift + Left / Ctrl + Shift + Right: Extend selections by words.
+- Ctrl + A: Select the entire file.
+
+### Editing
+- Ctrl + S: Save the current buffer.
+- Ctrl + Z / Ctrl + Y: Undo and redo changes.
+- Ctrl + Backspace / Ctrl + Del: Delete words backward or forward.
+- Alt + Shift + Up / Alt + Shift + Down: Duplicate the current selection to adjacent lines.
+- Alt + Down / Alt + Up: Delete and reinsert the current line above/below.
 
 ## Maintenance
 This repo is truly for personal purposes (AKA, I do not want to lose my config if my PC dies), but I thought it might be useful for someone else like me that likes a lighting fast editor, but doesn't have the time to learn all the complicated motions.
