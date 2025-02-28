@@ -1,4 +1,4 @@
-theme="everblush"
+theme="github_dark_dimmed"
 
 [keys.normal]
 "C-s" = ":w"
@@ -33,6 +33,7 @@ theme="everblush"
 "C-backspace" = "delete_word_backward"
 "C-del" = "delete_word_forward"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
+"C-d" = ["extend_to_line_bounds", "yank", "paste_after"]
 
 
 [keys.insert]
