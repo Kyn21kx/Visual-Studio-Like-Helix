@@ -1,4 +1,7 @@
-theme="github_dark_dimmed"
+theme="beans"
+
+[editor.inline-blame]
+behaviour = "visible"
 
 [keys.normal]
 "C-s" = ":w"
@@ -15,12 +18,13 @@ theme="github_dark_dimmed"
 "C-S-right" = ["extend_next_word_end", "select_mode"]
 "A-S-up" = "copy_selection_on_prev_line"
 "A-S-down" = "copy_selection_on_next_line"
-"d" = { "d" = "kill_to_line_end"}
+"d" = { "d" = "kill_to_line_end", "l" = ["extend_to_line_bounds", "delete_selection"]}
 "S-left" = ["move_char_right", "select_mode", "move_char_left"]  
 "S-right" = ["move_char_left", "select_mode", "move_char_right"]
 "S-up" = ["move_line_down", "select_mode", "move_line_up"]
 "S-down" = ["move_line_up", "select_mode", "move_line_down"]
 "$" = "goto_line_end"
+"#" = "goto_line_start"
 "C-z" = "undo"
 "C-y" = "redo"
 "C-f" = "search"
@@ -34,6 +38,9 @@ theme="github_dark_dimmed"
 "C-del" = "delete_word_forward"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
 "C-d" = ["extend_to_line_bounds", "yank", "paste_after"]
+"'" = "goto_word"
+"S-F12" = "goto_reference"
+"C-l" = "goto_first_nonwhitespace"
 
 
 [keys.insert]
@@ -64,7 +71,7 @@ theme="github_dark_dimmed"
 "C-a" = ["goto_file_start", "select_mode", "goto_file_end"]
 "C-d" = ["extend_to_line_bounds", "yank", "paste_after"]
 "F12" = "goto_definition"
-
+"C-l" = "goto_first_nonwhitespace"
 
 [keys.select]
 "S-left" = "extend_char_left"
@@ -86,3 +93,6 @@ theme="github_dark_dimmed"
 "C-d" = ["yank", "paste_after"]
 "C-S-right" = ["extend_next_word_end"]
 "C-S-left" = ["extend_prev_word_start"]
+"C-l" = "goto_first_nonwhitespace"
+"#" = "goto_line_start"
+"$" = "goto_line_end"
