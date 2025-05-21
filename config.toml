@@ -1,7 +1,8 @@
 theme="beans"
 
 [editor.inline-blame]
-behaviour = "visible"
+show = "cursor-line"
+auto-fetch = true
 
 [keys.normal]
 "C-s" = ":w"
