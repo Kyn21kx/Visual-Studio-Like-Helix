@@ -1,6 +1,6 @@
 # Visual-Studio-Like-Helix
 Configuration file for the Helix text editor to be closer to Visual Studio with Visual Assist
-
+sdgljuhsdkghu
 ## Why?
 I just really liked Helix, but I don't want to learn all the motions, so...
 
